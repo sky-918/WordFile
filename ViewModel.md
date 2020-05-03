@@ -22,11 +22,45 @@
 * Change the type of the data variables in ViewModel to LiveData or MutableLiveData.
 * To change the value of the data held by the `LiveData`, use the `setValue()` method on the `LiveData` variable.
 
+##### ViewModel and data binding
+
+* 在布局中设置
+
+  ```
+  <data>
+  
+         <variable
+             name="gameViewModel"
+             type="com.example.android.guesstheword.screens.game.GameViewModel" />
+     </data>
+  ```
 
 
 
+* 在代码中设置
 
+  ```
+  binding.gameViewModel = viewModel
+  binding.lifecycleOwner = viewLifecycleOwner//绑定生命周期
+  ```
 
+##### data binding在布局中的使用
+
+* 可以绑定数据，可以进行拼接
+
+   android:text="@{@string/quote_format(gameViewModel.word)}"
+
+* 也可以绑定监听方法
+
+   android:onClick="@{() -> gameViewModel.onSkip()}"
+
+  ##### ViewModel中Transformations.map数据的转换
+
+```
+val newResult = Transformations.map(someLiveData) { input ->
+   // Do some transformation on the input live data
+   // and return the new value
+}
+```
 
 详细情况查看在kotlinAppDemo文件夹下的GuessTheWord这个app的源码
-
