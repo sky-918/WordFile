@@ -5,18 +5,19 @@
       <config />
     </shared>
   </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="error" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="No Filters" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="d586258c-b1f9-4ab8-8298-086687ea9b8f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../Activity and Fragment Lifecycle.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../Activity and Fragment Lifecycle.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../asset/f6b25a71cec4e401.png" beforeDir="false" />
-    </list>
+    <list default="true" id="d586258c-b1f9-4ab8-8298-086687ea9b8f" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="Nexus_5_API_23" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="GWY0216A22011926" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
