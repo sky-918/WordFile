@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "E:\\WorkPlace\\WordFile\\kotlinAppDemo\\DevBytes\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-watch-v21\\values-watch-v21.xml",
+            "outputFile": "E:\\tyywork\\WordFile\\kotlinAppDemo\\DevBytes\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-watch-v21\\values-watch-v21.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\8ff1f3ebb2770de07d7f59e2304b584f\\res\\values-watch-v21\\values-watch-v21.xml",
+                    "source": "C:\\Users\\tyy\\.gradle\\caches\\transforms-2\\files-2.1\\6a3f8f90575a030b035467ce23726a8d\\res\\values-watch-v21\\values-watch-v21.xml",
                     "from": {
                         "startLines": "2,6,10",
                         "startColumns": "4,4,4",

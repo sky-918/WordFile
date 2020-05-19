@@ -1,0 +1,4 @@
+#Tue May 19 21:28:49 CST 2020
+base.0=E\:\\tyywork\\WordFile\\kotlinAppDemo\\DevBytes\\app\\build\\intermediates\\transforms\\r8\\release\\0
+path.0=classes.dex
+renamed.0=classes.dex

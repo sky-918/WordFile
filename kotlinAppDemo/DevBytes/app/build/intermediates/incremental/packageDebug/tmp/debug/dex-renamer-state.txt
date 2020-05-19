@@ -1,4 +1,4 @@
-#Tue May 19 17:13:35 CST 2020
-base.0=E\:\\WorkPlace\\WordFile\\kotlinAppDemo\\DevBytes\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out
+#Tue May 19 23:18:35 CST 2020
+base.0=E\:\\tyywork\\WordFile\\kotlinAppDemo\\DevBytes\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out
 path.0=classes.dex
 renamed.0=classes.dex

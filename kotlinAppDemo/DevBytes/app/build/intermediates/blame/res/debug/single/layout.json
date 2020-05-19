@@ -1,10 +1,10 @@
 [
     {
-        "merged": "E:\\WorkPlace\\WordFile\\kotlinAppDemo\\DevBytes\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_dev_byte.xml",
-        "source": "E:\\WorkPlace\\WordFile\\kotlinAppDemo\\DevBytes\\app\\src\\main\\res\\layout\\fragment_dev_byte.xml"
+        "merged": "E:\\tyywork\\WordFile\\kotlinAppDemo\\DevBytes\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\devbyte_item.xml",
+        "source": "E:\\tyywork\\WordFile\\kotlinAppDemo\\DevBytes\\app\\src\\main\\res\\layout\\devbyte_item.xml"
     },
     {
-        "merged": "E:\\WorkPlace\\WordFile\\kotlinAppDemo\\DevBytes\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\devbyte_item.xml",
-        "source": "E:\\WorkPlace\\WordFile\\kotlinAppDemo\\DevBytes\\app\\src\\main\\res\\layout\\devbyte_item.xml"
+        "merged": "E:\\tyywork\\WordFile\\kotlinAppDemo\\DevBytes\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_dev_byte.xml",
+        "source": "E:\\tyywork\\WordFile\\kotlinAppDemo\\DevBytes\\app\\src\\main\\res\\layout\\fragment_dev_byte.xml"
     }
 ]
