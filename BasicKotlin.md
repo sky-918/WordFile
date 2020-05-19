@@ -34,6 +34,13 @@
   3. 为了避免低版本生成png图，可以通过属性进行设置：可以vectorDrawables.useSupportLibrary = true通过build.gradle文件中的配置参数指定将     Android支持库用于旧版API中的矢量可绘制对象。  为矢量可绘制对象启用支持库后，请使用元素中的**app:srcCompat**属性<ImageView>（而不是android:src）为该图像指定矢量可绘制源。
 
 * 布局：textview完全可以设置一个**style统一格式**，可以通过Right-click the `TextView` in the **Component Tree** and select **Refactor > Extract Style**.一键生成已经定于好的属性
+
 * android:layout_marginStart和android:layout_marginEnd是指绘制流程的开始和结束，left、right不太一样样。**API17(Android4.2)**是一个分界点，高于他start==left，低于它不行。
+
 * textview***字体修改***使用**fontFamily**属性，例如：android:fontFamily="@font/abhaya_libre_bold"
 
+* **Android版本**
+
+  <img src=".\asset\android_版本.png" alt="android_版本" style="zoom:150%;" />
+
+​           
