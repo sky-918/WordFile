@@ -55,9 +55,6 @@ class GithubRepository(
         return RepoSearchResult(data, networkErrors)
     }
 
-    fun requestMore(query: String) {
-        requestAndSaveData(query)
-    }
 
 
     companion object {

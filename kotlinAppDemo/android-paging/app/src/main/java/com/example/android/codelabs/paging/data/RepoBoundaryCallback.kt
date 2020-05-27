@@ -54,7 +54,7 @@ class RepoBoundaryCallback(
                 isRequestInProgress = false
             }
         }, { error ->
-            networkErrors.postValue(error)
+            _networkErrors.postValue(error)
             isRequestInProgress = false
         })
     }
