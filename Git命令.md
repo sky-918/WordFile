@@ -44,3 +44,4 @@ git branch可以看到已经在panda分支上
 
    git  merge  branch_name
 
+​    :wq  保存退出
