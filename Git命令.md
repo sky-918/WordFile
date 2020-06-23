@@ -38,3 +38,9 @@ git branch可以看到已经在panda分支上
 
    git for-each-ref --format='%(committerdate) %09 %(authorname) %09 %(refname)' | sort -k5n -k2M -k3n -k4n|grep **androidx_master**
 
+##### 合并分支
+
+1. 合并分支,把branch_name合并到当前分支
+
+   git  merge  branch_name
+
