@@ -1,4 +1,4 @@
-#### Git命令
+## Git命令
 
 ##### 新建分支
 
@@ -15,6 +15,10 @@ git branch可以看到已经在panda分支上
 3） 推到远程
 
  git push origin panda 
+
+4）创建本地分支并拉取远程分支
+
+git checkout -b  local_dev  origin/remote_dev
 
 ##### 删除分支
 
