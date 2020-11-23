@@ -116,7 +116,8 @@ class MainActivity : AppCompatActivity() {
         // Fade the view out to completely transparent and then back to completely opaque
 
         val animator = ObjectAnimator.ofFloat(star, View.ALPHA, 0f)
-        animator.repeatCount = 1
+//        animator.repeatCount = 1
+        animator.duration = 1500
         animator.repeatMode = ObjectAnimator.REVERSE
         animator.disableViewDuringAnimation(fadeButton)
         animator.start()

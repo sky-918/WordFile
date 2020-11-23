@@ -21,6 +21,7 @@ import android.content.res.Resources
 import android.os.Build
 import android.text.Html
 import android.text.Spanned
+import android.util.Log
 import androidx.core.text.HtmlCompat
 import com.example.android.trackmysleepquality.database.SleepNight
 import java.text.SimpleDateFormat
@@ -79,6 +80,7 @@ fun formatNights(nights: List<SleepNight>, resources: Resources): Spanned {
     sb.apply {
         append(resources.getString(R.string.title))
         nights.forEach {
+            Log.e("数据库", it.sleepQuality.toString())
             append("<br>")
             append(resources.getString(R.string.start_time))
             append("\t${convertLongToDateString(it.startTimeMilli)}<br>")
