@@ -6,6 +6,8 @@
 
 <img src=".\assets\activity_lifecycal.png" alt="activity_lifecycal" style="zoom:50%;" />
 
+
+
   * onSaveInstanceState()方法是在onStop之后执行，用来保存数据，恢复数据可以在onCreate或者onStart中
   * 直接返回首页，不会完全调用生命周期方法，但是会调用onSaveInstanceState,同时切换横竖屏（**这是属于更改配置，还有语言修改，插入硬件键盘**）相当于重新创建这个activity
   * adb shell am kill com.example.android.dessertclicker//结束这个（包名）进程可以帮助调试
