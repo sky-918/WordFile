@@ -16,6 +16,8 @@
 
 <img src="assets\dfde69e6a42d54b3.png" alt="dfde69e6a42d54b3" style="zoom:50%;" />
 
+
+
 * ### **Lifecycle library**使用非常方便绑定生命周期
 
   1. Implement the `LifecycleObserver` interface in classes that need to be lifecycle-aware（在需要的地方继承它）
