@@ -4,3 +4,8 @@
 asset 文件夹中是图片文件
 kotlinAppDemo文件夹中是kotlin写的demo
 主文件夹下主要是一些文档
+
+这里很杂很乱
+
+
+
