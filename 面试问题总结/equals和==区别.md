@@ -1,7 +1,16 @@
 #### equals和==的区别
 
 1. ==比较的对象在内存中的首地址是否相同
-2. equals对于字符串和基本数据类型的包装类进行比较是比较的内容，对非字符串比较时和==相同据类型，type，short，int，long，char，float，double，boolean只能使用==，不能使用equals
+
+2. equals对于**字符串和基本数据类型的包装类**进行比较是比较的内容，对非字符串比较时和==相同据类型，type，short，int，long，char，float，double，boolean只能使用==，不能使用equals
+
+3. 对于一些对象如果没有重写equals和hashcode方法一般，用equals方法时和==相同，比较的是地址，因为object方法里的equals方法就是==，可以看源码。
+
+   ***注意String a="111";String b="111";a==b返回true，为何地址是相同的？***
+
+   如下图：![string类型存储示意图](../assets/string类型存储示意图.jpeg)
+
+   
 
 #### equals和hashcode
 
