@@ -54,3 +54,33 @@
   * gradlew uninstallRelease //卸载Release模式包
   * gradlew compileDebugJavaWithJavac --stacktrace  //找错
   * gradlew processDebugResources --debug //未知
+  
+  
+
+scrcpy
+
+#### Flutter 
+
+- source ~/.bash_profile 使命令生效
+
+- flutter --version
+
+- To see a full list of available changes, run the following command:
+
+  *content_copy*
+
+  ```
+  dart fix --dry-run
+  ```
+
+- To apply all changes in bulk, run the following command:
+
+  *content_copy*
+
+  ```
+  dart fix --apply
+  ```
+
+Mac 终端：
+
+结束执行的命令： control+c。   查看命令： control+x
