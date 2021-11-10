@@ -13,3 +13,7 @@
    主要是view的空间不够，考虑可滑动的view或者其他可展开组件
    
 5. ***assert()注意点：***在生产环境代码中 `assert()` 函数会被忽略，不会被调用。 在开发过程中, `assert(*condition*)` 会在非 `true` 的条件下抛出异常.有关更多信息，参考 [Assert](https://www.dartcn.com/guides/language/language-tour#assert).
+
+6. 在更新是遇到了**dart-sdk-darwin-x64.zip**下载失败的问题，尝试有效的解决方式在终端中执行**export PUB_HOSTED_URL=https://pu b.flutter-io.cn **
+
+   **export FLUTTER_STORAGE_BASE_URL=https://storage.flutter-io.cn**   这两条命令之后再进行更新就可以了。
