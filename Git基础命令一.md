@@ -108,4 +108,8 @@
 
   **git checkout master**
 
-  
+* 版本回退
+
+   **git reset --hard f4abaa0735**
+
+   **git reset --hard HEAD^**
