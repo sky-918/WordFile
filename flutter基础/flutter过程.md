@@ -17,3 +17,5 @@
 6. 在更新是遇到了**dart-sdk-darwin-x64.zip**下载失败的问题，尝试有效的解决方式在终端中执行**export PUB_HOSTED_URL=https://pu b.flutter-io.cn **
 
    **export FLUTTER_STORAGE_BASE_URL=https://storage.flutter-io.cn**   这两条命令之后再进行更新就可以了。
+   
+7. flutter项目版本控制中，开发的是app   **pubspec.lock**需要进行版本控制，如果是flutter的library**pubspec.lock**则不需要进行版本控制。
