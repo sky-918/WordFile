@@ -6,6 +6,8 @@
 
 <img src="..\assets\activity_lifecycal.png" alt="activity_lifecycal" style="zoom:50%;" />
 
+<img src="..\assets\生命周期.gif" alt="activity_lifecycal" style="zoom:90%;" />
+
 
 
   * onSaveInstanceState()方法是在onStop之后执行，用来保存数据，恢复数据可以在onCreate或者onStart中
@@ -14,7 +16,7 @@
 
 * 看图说话，红色为Activity的生命周期,**Fragment的生命周期依附于Activity的生命周期，添加显示时activity准备好了，Fragment才能添加；消失时，刚好相反，Fragment 先detach然后activity才能destroy。**
 
-<img src="assets\dfde69e6a42d54b3.png" alt="dfde69e6a42d54b3" style="zoom:50%;" />
+<img src="..\assets\dfde69e6a42d54b3.png" alt="dfde69e6a42d54b3" style="zoom:50%;" />
 
 
 

@@ -19,3 +19,6 @@
    **export FLUTTER_STORAGE_BASE_URL=https://storage.flutter-io.cn**   这两条命令之后再进行更新就可以了。
    
 7. flutter项目版本控制中，开发的是app   **pubspec.lock**需要进行版本控制，如果是flutter的library**pubspec.lock**则不需要进行版本控制。
+
+8. flutter升级，**flutter upgrade**，之后在具体的工程中，需要使用**flutter clean**，然后 **flutter pub upgrade --major-versions**
+

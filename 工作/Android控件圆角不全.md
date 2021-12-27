@@ -16,7 +16,7 @@ Android控件在xml文件中通过android:background="@drawable/bg_round_conner_
 
    例如：
 
-   ```
+   ```java
    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
        android:id="@+id/rl"
        android:layout_width="match_parent"
